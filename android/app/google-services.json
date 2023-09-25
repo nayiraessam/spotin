@@ -1,0 +1,54 @@
+{
+  "project_info": {
+    "project_number": "750733301776",
+    "project_id": "spotin-af2d0",
+    "storage_bucket": "spotin-af2d0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:750733301776:android:b7eb482be35b1838435295",
+        "android_client_info": {
+          "package_name": "com.app.spotin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "750733301776-jh0rdgef5unptnjvd1nl084acilq2rff.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.app.spotin",
+            "certificate_hash": "9bbb3186b2189ef16d8f272bdab59362c395cbb4"
+          }
+        },
+        {
+          "client_id": "750733301776-vgasaq2p1f5aavi5ar4bibrfpurhph5v.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBRRKdwxu9hsmuMCSxmlIOOP8iYyXH86hU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "750733301776-vgasaq2p1f5aavi5ar4bibrfpurhph5v.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "750733301776-uqu8ecjtbaujst913fic9daqa4pna3m7.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.app.spotin"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
