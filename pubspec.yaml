@@ -109,9 +109,9 @@ dependencies:
   # Use with the CupertinoIcons class for iOS style icons.
 
 dev_dependencies:
+  flutter_test:
+    sdk: flutter
   flutter_launcher_icons: "^0.12.0"
-sdk: flutter 
-
 flutter_launcher_icons:
   android: "launcher_icon"
   ios: true
