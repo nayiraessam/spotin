@@ -113,7 +113,7 @@ dev_dependencies:
    sdk: flutter
 flutter_launcher_icons: "^0.13.1"
 
-flutter_icons:
+flutter_launcher_icons:
   android: "launcher_icon"
   ios: "assets/images/CompressJPEG.online_512x512_image_(1).png"
   image_path: "assets/images/CompressJPEG.online_512x512_image_(1).png"
