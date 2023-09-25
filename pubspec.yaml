@@ -110,11 +110,13 @@ dependencies:
 
 dev_dependencies:
   flutter_test:
-    sdk: flutter
+  sdk: flutter
   flutter_launcher_icons: "^0.12.0"
-flutter_launcher_icons:
+flutter_launcher_icons: any
+
+flutter_icons:
   android: "launcher_icon"
-  ios: true
+  ios: "assets/images/CompressJPEG.online_512x512_image_(1).png"
   image_path: "assets/images/CompressJPEG.online_512x512_image_(1).png"
   min_sdk_android: 21 # android min sdk min:16, default 21
 
