@@ -353,7 +353,7 @@ class FFRoute {
               ? Container(
                   color: Colors.transparent,
                   child: Image.asset(
-                    'assets/images/CompressJPEG.online_512x512_image_(1).png',
+                    'assets/images/CompressJPEG.online_512x512_image.png',
                     fit: BoxFit.none,
                   ),
                 )
