@@ -1164,7 +1164,7 @@ class _HomePageWidgetState extends State<HomePageWidget>
                                   animationsMap['textOnPageLoadAnimation7']!),
                             ),
                             Column(
-                              mainAxisSize: MainAxisSize.max,
+                              mainAxisSize: MainAxisSize.min,
                               children: [
                                 Padding(
                                   padding: EdgeInsetsDirectional.fromSTEB(

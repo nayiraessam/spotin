@@ -79,7 +79,7 @@ class _PushNotificationsHandlerState extends State<PushNotificationsHandler> {
   @override
   Widget build(BuildContext context) => _loading
       ? Container(
-          color: Colors.transparent,
+          color: Colors.white,
           child: Image.asset(
             'assets/images/CompressJPEG.online_512x512_image.png',
             fit: BoxFit.none,
