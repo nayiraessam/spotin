@@ -62,8 +62,6 @@ class _CoursesPageWidgetState extends State<CoursesPageWidget>
   void initState() {
     super.initState();
     _model = createModel(context, () => CoursesPageModel());
-
-    WidgetsBinding.instance.addPostFrameCallback((_) => setState(() {}));
   }
 
   @override
@@ -104,6 +102,7 @@ class _CoursesPageWidgetState extends State<CoursesPageWidget>
             style: FlutterFlowTheme.of(context).headlineLarge.override(
                   fontFamily: 'Montserrat',
                   color: FlutterFlowTheme.of(context).primaryBtnText,
+                  fontSize: 22.0,
                 ),
           ),
           actions: [],

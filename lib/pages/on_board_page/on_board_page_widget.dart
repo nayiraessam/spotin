@@ -111,8 +111,6 @@ class _OnBoardPageWidgetState extends State<OnBoardPageWidget>
     _model.displayNameController ??= TextEditingController();
     _model.emailAddressCreateController ??= TextEditingController();
     _model.passwordCreateController ??= TextEditingController();
-
-    WidgetsBinding.instance.addPostFrameCallback((_) => setState(() {}));
   }
 
   @override

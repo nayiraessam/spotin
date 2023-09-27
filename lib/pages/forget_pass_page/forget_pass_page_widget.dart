@@ -44,7 +44,6 @@ class _ForgetPassPageWidgetState extends State<ForgetPassPageWidget> {
     });
 
     _model.emailTextController ??= TextEditingController();
-    WidgetsBinding.instance.addPostFrameCallback((_) => setState(() {}));
   }
 
   @override
@@ -91,7 +90,7 @@ class _ForgetPassPageWidgetState extends State<ForgetPassPageWidget> {
                     fontFamily: 'Poppins',
                     color: Colors.white,
                     fontSize: 22.0,
-                    fontWeight: FontWeight.w500,
+                    fontWeight: FontWeight.w600,
                   ),
             ),
           ),

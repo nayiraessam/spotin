@@ -38,8 +38,6 @@ class _TfiacovermadelWidgetState extends State<TfiacovermadelWidget> {
   void initState() {
     super.initState();
     _model = createModel(context, () => TfiacovermadelModel());
-
-    WidgetsBinding.instance.addPostFrameCallback((_) => setState(() {}));
   }
 
   @override

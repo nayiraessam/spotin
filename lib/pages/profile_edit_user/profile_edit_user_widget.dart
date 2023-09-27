@@ -34,7 +34,6 @@ class _ProfileEditUserWidgetState extends State<ProfileEditUserWidget> {
 
     _model.yourNameController1 ??= TextEditingController();
     _model.yourNameController2 ??= TextEditingController();
-    WidgetsBinding.instance.addPostFrameCallback((_) => setState(() {}));
   }
 
   @override

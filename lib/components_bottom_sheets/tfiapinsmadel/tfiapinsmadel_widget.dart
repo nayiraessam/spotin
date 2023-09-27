@@ -38,8 +38,6 @@ class _TfiapinsmadelWidgetState extends State<TfiapinsmadelWidget> {
   void initState() {
     super.initState();
     _model = createModel(context, () => TfiapinsmadelModel());
-
-    WidgetsBinding.instance.addPostFrameCallback((_) => setState(() {}));
   }
 
   @override

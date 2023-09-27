@@ -38,8 +38,6 @@ class _TfiapermadelWidgetState extends State<TfiapermadelWidget> {
   void initState() {
     super.initState();
     _model = createModel(context, () => TfiapermadelModel());
-
-    WidgetsBinding.instance.addPostFrameCallback((_) => setState(() {}));
   }
 
   @override

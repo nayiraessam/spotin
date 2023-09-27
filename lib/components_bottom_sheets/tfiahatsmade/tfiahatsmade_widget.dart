@@ -38,8 +38,6 @@ class _TfiahatsmadeWidgetState extends State<TfiahatsmadeWidget> {
   void initState() {
     super.initState();
     _model = createModel(context, () => TfiahatsmadeModel());
-
-    WidgetsBinding.instance.addPostFrameCallback((_) => setState(() {}));
   }
 
   @override

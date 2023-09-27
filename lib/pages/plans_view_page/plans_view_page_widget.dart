@@ -32,8 +32,6 @@ class _PlansViewPageWidgetState extends State<PlansViewPageWidget> {
   void initState() {
     super.initState();
     _model = createModel(context, () => PlansViewPageModel());
-
-    WidgetsBinding.instance.addPostFrameCallback((_) => setState(() {}));
   }
 
   @override

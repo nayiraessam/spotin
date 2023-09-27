@@ -59,8 +59,6 @@ class _TicketsPageWidgetState extends State<TicketsPageWidget>
   void initState() {
     super.initState();
     _model = createModel(context, () => TicketsPageModel());
-
-    WidgetsBinding.instance.addPostFrameCallback((_) => setState(() {}));
   }
 
   @override
@@ -102,7 +100,7 @@ class _TicketsPageWidgetState extends State<TicketsPageWidget>
                   fontFamily: 'Montserrat',
                   color: Colors.white,
                   fontSize: 22.0,
-                  fontWeight: FontWeight.bold,
+                  fontWeight: FontWeight.w600,
                 ),
           ),
           actions: [],

@@ -39,8 +39,6 @@ class _TfiastickersmadelWidgetState extends State<TfiastickersmadelWidget> {
   void initState() {
     super.initState();
     _model = createModel(context, () => TfiastickersmadelModel());
-
-    WidgetsBinding.instance.addPostFrameCallback((_) => setState(() {}));
   }
 
   @override

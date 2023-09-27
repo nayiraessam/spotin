@@ -108,8 +108,6 @@ class _GamesViewPageWidgetState extends State<GamesViewPageWidget>
   void initState() {
     super.initState();
     _model = createModel(context, () => GamesViewPageModel());
-
-    WidgetsBinding.instance.addPostFrameCallback((_) => setState(() {}));
   }
 
   @override

@@ -60,8 +60,6 @@ class _GamesPageWidgetState extends State<GamesPageWidget>
           !anim.applyInitialState),
       this,
     );
-
-    WidgetsBinding.instance.addPostFrameCallback((_) => setState(() {}));
   }
 
   @override

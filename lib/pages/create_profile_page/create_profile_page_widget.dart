@@ -34,8 +34,6 @@ class _CreateProfilePageWidgetState extends State<CreateProfilePageWidget> {
   void initState() {
     super.initState();
     _model = createModel(context, () => CreateProfilePageModel());
-
-    WidgetsBinding.instance.addPostFrameCallback((_) => setState(() {}));
   }
 
   @override
@@ -77,7 +75,7 @@ class _CreateProfilePageWidgetState extends State<CreateProfilePageWidget> {
                   fontFamily: 'Montserrat',
                   color: FlutterFlowTheme.of(context).primaryBtnText,
                   fontSize: 22.0,
-                  fontWeight: FontWeight.bold,
+                  fontWeight: FontWeight.w600,
                 ),
           ),
         ),

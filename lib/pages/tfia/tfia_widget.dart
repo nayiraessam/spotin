@@ -40,7 +40,6 @@ class _TfiaWidgetState extends State<TfiaWidget> with TickerProviderStateMixin {
       length: 6,
       initialIndex: 0,
     )..addListener(() => setState(() {}));
-    WidgetsBinding.instance.addPostFrameCallback((_) => setState(() {}));
   }
 
   @override

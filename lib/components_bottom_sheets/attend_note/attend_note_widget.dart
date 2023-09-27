@@ -37,8 +37,6 @@ class _AttendNoteWidgetState extends State<AttendNoteWidget> {
   void initState() {
     super.initState();
     _model = createModel(context, () => AttendNoteModel());
-
-    WidgetsBinding.instance.addPostFrameCallback((_) => setState(() {}));
   }
 
   @override
